@@ -7,9 +7,10 @@ name = "pypi"
 sqlalchemy = "*"
 pydantic = "*"
 fastapi = "*"
-uvicorn = {extras = ["standard"], version = "*"}
 alembic = "*"
 psycopg2 = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+psycopg2-binary = "*"
 
 [dev-packages]
 
